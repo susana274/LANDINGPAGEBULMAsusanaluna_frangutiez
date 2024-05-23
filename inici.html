@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImaginPC</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    /* sobre nosotros */
+    #sobre-nosaltres {
+        margin-bottom: 0.5rem; /* Reducir el espacio inferior */
+        padding-bottom: 0.5rem; /* Reducir el padding inferior */
+    }
+    .content {
+        margin-top: 0.5rem; /* Reducir el espacio superior del contenido principal */
+    }
+    .section {
+        padding-top: 1rem; /* Reducir el padding superior de las secciones */
+        padding-bottom: 1rem; /* Reducir el padding inferior de las secciones */
+    }
+    .contact-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.5rem;
+    }
+    .contact-item i {
+        font-size: 1.5rem;
+        margin-right: 0.5rem;
+        color: #3273dc;
+    }
+  /* contacto */
+    .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+        .contact-item i {
+            font-size: 1.5rem;
+            margin-right: 0.5rem;
+            color: #3273dc;
+        }
+        .section {
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        html {
+    scroll-behavior: smooth;
+}
+
+</style>
+<body>
+   <!-- Navbar -->
+   <nav class="navbar is-light" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="#">
+            <img src="White Brown Icon Logo (1).png" alt="IMAGINPC Logo" style="max-height: 80px;">
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+            <a class="navbar-item" href="#inicio">Inicio</a>
+            <a class="navbar-item" href="#sobre-nosotros">Sobre Nosotros</a>
+            <a class="navbar-item" href="#servicios">Servicios</a>
+            <a class="navbar-item" href="#contacto">Contacto</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Slider de Imágenes -->
+<section id="inicio" class="hero is-info is-medium">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">
+                Bienvenidos a ImaginPC
+            </h1>
+            <h2 class="subtitle">
+                Innovación y Tecnología a tu Alcance
+            </h2>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Sección de Productos Destacados -->
+    <section class="section">
+        <div class="container">
+            <h2 class="title">PRODUCTOS DESTACADOS</h2>
+            <div class="columns">
+                <div class="column">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="pc.jpg" alt="Producto Destacado 1">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title">PC Personalizado</p>
+                            <p class="subtitle">Tu PC personalizado listo para usar, con los mejores componentes del mercado, adaptado a tus necesidades específicas.</p>
+                            <p>Descubre la potencia y la eficiencia de un PC hecho a medida. Perfecto para juegos, diseño, y mucho más. ¡Tu creatividad no tendrá límites! Todo está configurado y listo para usar, sin complicaciones.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="componentes.webp" alt="Producto Destacado 2">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title">Componentes de Calidad</p>
+                            <p class="subtitle">Encuentra todos los componentes necesarios para tu PC en un solo lugar.</p>
+                            <p>Desde procesadores de última generación hasta tarjetas gráficas potentes, tenemos todo lo que necesitas para construir el PC de tus sueños. Calidad y rendimiento garantizados.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="setup.jpeg" alt="Producto Destacado 3">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title">Completa tu Setup</p>
+                            <p class="subtitle">Tenemos todos los complementos que necesitas para un setup perfecto.</p>
+                            <p>Accesorios de alta calidad, desde teclados mecánicos hasta sillas ergonómicas, para que tu espacio de trabajo o juego sea cómodo y eficiente. ¡Transforma tu ambiente!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Llamada a la Acción -->
+    <section class="hero is-primary">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">¿No sabes montar tu propio PC?</h1>
+                <h2 class="subtitle">¡Contáctanos hoy mismo! Te ayudaremos a disfrutar de la mejor tecnología sin complicaciones.</h2>
+                <p>En ImaginPC, no solo vendemos componentes, sino que también ofrecemos asesoramiento personalizado y soporte técnico. Nuestro equipo de expertos está aquí para ayudarte en cada paso del camino.</p>
+                <a class="button is-link" href="#contacto">Contactar</a>
+            </div>
+        </div>
+    </section>
+<!--sobrenosotros-->
+ <!-- Sobre Nosaltres Section -->
+ <section id="sobre-nosotros" class="section">
+    <div class="container">
+        <h2 class="title">SOBRE NOSOTROS</h2>
+        <p>Somos una empresa dedicada a ofrecer soluciones personalizadas para tus necesidades de hardware.
+            Con años de experiencia en la industria, nuestro objetivo es proporcionar a nuestros clientes los mejores productos y servicios.
+        </p>
+    </div>
+</section>
+
+<!-- Sección principal -->
+<section class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-three-quarters">
+                <div class="content">
+                    <p>ImaginPC es tu destino número uno para PC personalizados, componentes de hardware y accesorios. Desde nuestra fundación, hemos estado comprometidos con la excelencia en la industria de la informática.</p>
+                    <p>En ImaginPC, nos enorgullece ofrecer una amplia gama de productos de las mejores marcas del mercado. Nuestro equipo experto está aquí para ayudarte a encontrar la solución perfecta para tus necesidades informáticas, ya sea que estés buscando un PC de alto rendimiento para juegos, una estación de trabajo potente para diseño gráfico o cualquier otro tipo de equipo informático.</p>
+                    <p>Además de nuestra amplia selección de productos, también ofrecemos servicios de asesoramiento personalizado y soporte técnico para garantizar que obtengas la mejor experiencia informática posible. Si estás buscando un PC personalizado, no dudes en contactarnos. Nuestro equipo estará encantado de trabajar contigo para crear la solución perfecta para tus necesidades.</p>
+                    <div class="divider"></div>
+                    <p>En ImaginPC trabajamos con un equipo de profesionales altamente calificados, incluyendo:</p>
+                    <div class="columns">
+                        <div class="column is-one-third">
+                            <figure class="image is-128x128">
+                                <img src="tecnicosinformaticos.jpeg" alt="Técnico Informático">
+                            </figure>
+                            <p><strong>Técnicos informáticos:</strong> Expertos en diagnóstico y reparación de equipos.</p>
+                        </div>
+                        <div class="column is-one-third">
+                            <figure class="image is-128x128">
+                                <img src="helpdesk.jpeg" alt="Especialista en Helpdesk">
+                            </figure>
+                            <p><strong>Especialistas en helpdesk:</strong> Resolución rápida y eficiente de problemas técnicos.</p>
+                        </div>
+                        <div class="column is-one-third">
+                            <figure class="image is-128x128">
+                                <img src="ingenierosdesistemas.jpeg" alt="Ingeniero de Sistemas">
+                            </figure>
+                            <p><strong>Ingenieros de sistemas:</strong> Diseño e implementación de infraestructuras tecnológicas.</p>
+                        </div>
+                    </div>
+                    <div class="columns">
+                        <div class="column is-one-third">
+                            <figure class="image is-128x128">
+                                <img src="desarrolladoresdesoftware.jpeg" alt="Desarrollador de Software">
+                            </figure>
+                            <p><strong>Desarrolladores de software:</strong> Creación de soluciones personalizadas.</p>
+                        </div>
+                        <div class="column is-one-third">
+                            <figure class="image is-128x128">
+                                <img src="ciberseguridad.webp" alt="Especialista en Seguridad Informática">
+                            </figure>
+                            <p><strong>Especialistas en seguridad informática:</strong> Protección contra amenazas cibernéticas.</p>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                    <p>Para obtener más información sobre nuestros productos y servicios, no dudes en ponerte en contacto con nosotros a través de nuestros diversos canales:</p>
+                    <ul>
+                        <li class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="contacte.html">Formulario de contacto</a>
+                        </li>
+                        <li class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+34 603 23 98 70">+34 603 23 98 70</a>
+                        </li>
+                        <li class="contact-item">
+                            <i class="fas fa-envelope-open-text"></i>
+                            <a href="mailto:info@imaginpc.com">info@imaginpc.com</a>
+                        </li>
+                        <li class="contact-item">
+                            <i class="fab fa-instagram"></i>
+                            <a href="https://www.instagram.com/imaginpc" target="_blank">Instagram</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="column is-one-quarter">
+                <img src="tiposequipostrabajoempresasobjetivos.png" alt="Equipo de ImaginPC" style="width: 100%; height: auto;">
+            </div>
+        </div>
+    </div>
+</section>
+<!--SERVEIS-->
+
+    <!-- Servicios Section -->
+    <section id="servicios" class="section">
+        <div class="container">
+            <h2 class="title">NUESTOS SERVICIOS</h2>
+            <div class="columns">
+                <div class="column">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="pc.avif" alt="PC Personalizado">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title">PCs Personalizados</p>
+                            <p>Configura tu PC a medida con los componentes que necesitas para tu uso específico.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="componentes.webp" alt="Componentes de Hardware">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title">Componentes de Hardware</p>
+                            <p>Venta de componentes de hardware de alta calidad para cualquier tipo de configuración.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="perifericos-gaming.webp" alt="Periféricos">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title">Complementos</p>
+                            <p>Descubre nuestra gama de periféricos de calidad para una experiencia completa.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section id="contacto" class="section">
+        <div class="container">
+            <h2 class="title">CONTACTO</h2>
+            <div class="columns">
+                <div class="column">
+                    <form id="contact-form">
+                        <div class="field">
+                            <label class="label">Nombre</label>
+                            <div class="control">
+                                <input class="input" type="text" id="nombre" placeholder="Tu nombre">
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <label class="label">Correo Electrónico</label>
+                            <div class="control">
+                                <input class="input" type="email" id="correo" placeholder="Tu correo electrónico">
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <label class="label">Mensaje</label>
+                            <div class="control">
+                                <textarea class="textarea" id="mensaje" placeholder="Tu mensaje"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="control">
+                            <button class="button is-primary" type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="column">
+                    <h3 class="subtitle">Otras formas de contactarnos</h3>
+                    <ul>
+                        <li class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+34 603 23 98 70">+34 603 23 98 70</a>
+                        </li>
+                        <li class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:info@imaginpc.com">info@imaginpc.com</a>
+                        </li>
+                        <li class="contact-item">
+                            <i class="fab fa-instagram"></i>
+                            <a href="https://www.instagram.com/imaginpc" target="_blank">Instagram</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Script para el menú de hamburguesa en dispositivos móviles -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const form = document.getElementById("contact-form");
+            form.addEventListener("submit", function(event) {
+                event.preventDefault();
+                
+                // Get form values
+                const nombre = document.getElementById("nombre").value.trim();
+                const correo = document.getElementById("correo").value.trim();
+                const mensaje = document.getElementById("mensaje").value.trim();
+
+                // Validate form fields
+                if (!nombre) {
+                    alert("El campo de nombre está vacío.");
+                    return;
+                }
+
+                if (!correo || !isValidEmail(correo)) {
+                    alert("Por favor, introduce un correo electrónico válido.");
+                    return;
+                }
+
+                if (!mensaje) {
+                    alert("El campo de mensaje está vacío.");
+                    return;
+                }
+
+                // If validation is successful
+                alert("¡Formulario enviado correctamente!");
+                form.reset();
+            });
+
+            function isValidEmail(email) {
+                const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                return re.test(email);
+            }
+
+            // Navbar burger toggle for mobile
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+            if ($navbarBurgers.length > 0) {
+                $navbarBurgers.forEach(el => {
+                    el.addEventListener('click', () => {
+                        const target = el.dataset.target;
+                        const $target = document.getElementById(target);
+
+                        el.classList.toggle('is-active');
+                        $target.classList.toggle('is-active');
+                    });
+                });
+            }
+        });
+    </script>
+</body>
+</html>
